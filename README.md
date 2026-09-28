@@ -8,8 +8,10 @@
 
 Commands used:
 
-`cd app/` # switch to directory where package.json is located
-`npm pack` # package application into tarball to enable easy transfer
+```bash
+cd app/ # switch to directory where package.json is located
+npm pack # package application into tarball to enable easy transfer
+```
 
 ### EXERCISE 2: Create a new server
 
@@ -21,9 +23,11 @@ If my memory serves me correctly..Digital ocean gives you root access from the s
 
 Commands used:
 
-`apt update`
-`apt install npm
-`apt install nodejs`
+```bash
+apt update
+apt install npm
+apt install nodejs
+```
 
 ### EXERCISE 4: Copy App
 
@@ -35,10 +39,12 @@ Commands used:
 
 Commands used:
 
-`tar -xf bootcamp-node-project-1.0.0.tgz`
-`cd package/`
-`npm install`
-`node ./server.js &`
+```bash
+tar -xf bootcamp-node-project-1.0.0.tgz
+cd package/
+npm install
+node ./server.js &
+```
 
 Command output:
 
