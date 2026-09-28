@@ -15,7 +15,7 @@ npm pack # package application into tarball to enable easy transfer
 
 ### EXERCISE 2: Create a new server
 
-All UI work. I have since deleted my Digital Ocean account. I am hoping I can reproduce my steps from memory. I created a droplet with the smallest usage and generated an SSH key. I ran `ssh-keygenk -t rsa` I entered the key name as `~/.ssh/digi-ocean`. I then created a basic firewall that allowed ssh access (port 22 tcp) from my public IP and added the newly created droplet to it. 
+All UI work. I have since deleted my Digital Ocean account. I am hoping I am recalling most of the UI steps from memory. I created a droplet with the smallest usage. For SSH access I generated an SSH key. I ran `ssh-keygenk -t rsa` I entered the key name as `~/.ssh/digi-ocean`. I then entered the public key into digital ocean and associated it with the droplet. I created a basic firewall that allowed ssh access (port 22 tcp) from my public IP and added the newly created droplet to it. 
 
 ### EXERCISE 3: Prepare server to run Node App
 
