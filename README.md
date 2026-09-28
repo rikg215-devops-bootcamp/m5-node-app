@@ -1,6 +1,6 @@
 # M5-Node-App
 
-## A simple app deployment on a Digital Ocean
+## A simple app deployment on a Digital Ocean droplet
 
 ### "Cloud Basics"
 
