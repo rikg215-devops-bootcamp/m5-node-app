@@ -1,6 +1,6 @@
 # M5-Node-App
 
-## Project is covers a basic app deployment on a cloud platform
+## A simple app deployment on a Digital Ocean
 
 ### "Cloud Basics"
 
@@ -33,7 +33,9 @@ apt install nodejs
 
 Commands used:
 
-`scp bootcamp-node-project-1.0.0.tgz root@<DIGITAL-OCEAN-DROPLET-IP>:/root/` # Ran from inside of app/ folder
+```bash
+scp bootcamp-node-project-1.0.0.tgz root@<DIGITAL-OCEAN-DROPLET-IP>:/root/ # Ran from inside of app/ folder
+```
 
 ### EXERCISE 5: Run Node App
 
